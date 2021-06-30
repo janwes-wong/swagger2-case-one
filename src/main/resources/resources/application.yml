@@ -1,0 +1,10 @@
+server:
+  port: 8856
+  address: 192.168.215.251
+# swagger接口安全验证
+swagger:
+  production: false
+  basic:
+    enable: true
+    username: admin
+    password: 123456
